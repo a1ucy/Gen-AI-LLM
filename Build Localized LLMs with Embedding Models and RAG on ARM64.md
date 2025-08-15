@@ -10,11 +10,11 @@ This document is a step by step guide to building a personalized agent that has 
 
 ## Steps:
 
-1. Download and install Docker and Ollama, and increase memory limit on Docker to at least 20GB.<img src="/Users/lucydesu/Desktop/Screenshot 2025-03-29 at 2.08.37 AM.png" alt="Screenshot 2025-03-29 at 2.08.37 AM" style="zoom:50%;" />
+1. Download and install Docker and Ollama, and increase memory limit on Docker to at least 20GB.<img src="Screenshot 2025-03-29 at 2.08.37 AM.png" alt="Screenshot 2025-03-29 at 2.08.37 AM" style="zoom:50%;" />
 
-2. Selete deepseek-r1 model from Ollama site, and copy command. Feel free to try different model.<img src="/Users/lucydesu/Desktop/Screenshot 2025-03-29 at 12.45.32 AM.png" alt="Screenshot 2025-03-29 at 12.45.32 AM" style="zoom:50%;" />
+2. Selete deepseek-r1 model from Ollama site, and copy command. Feel free to try different model.<img src="Screenshot 2025-03-29 at 12.45.32 AM.png" alt="Screenshot 2025-03-29 at 12.45.32 AM" style="zoom:50%;" />
 
-3. Paste command on your terminal. After finish installing, you may test with some prompt.![Screenshot 2025-03-29 at 12.57.53 AM](/Users/lucydesu/Desktop/Screenshot 2025-03-29 at 12.57.53 AM.png)
+3. Paste command on your terminal. After finish installing, you may test with some prompt.![Screenshot 2025-03-29 at 12.57.53 AM](Screenshot 2025-03-29 at 12.57.53 AM.png)
 
 4. Create a folder where you want RAGFlow to be and copy the command lines to clone RAGFlow.
 
@@ -44,25 +44,25 @@ This document is a step by step guide to building a personalized agent that has 
 
 9. Add Ollama from Model providers page.
 
-<img src="/Users/lucydesu/Library/Application Support/typora-user-images/Screenshot 2025-03-29 at 1.49.48 AM.png" alt="Screenshot 2025-03-29 at 1.49.48 AM" style="zoom: 50%;" />
+<img src="Screenshot 2025-03-29 at 1.49.48 AM.png" alt="Screenshot 2025-03-29 at 1.49.48 AM" style="zoom: 50%;" />
 
 10. Model type = chat, model name = <copy your model's name>, base url = http://host.docker.internal:11434, Max Tokens = 99999.
 
-    <img src="/Users/lucydesu/Library/Application Support/typora-user-images/Screenshot 2025-03-29 at 1.54.57 AM.png" alt="Screenshot 2025-03-29 at 1.54.57 AM" style="zoom: 67%;" />
+    <img src="Screenshot 2025-03-29 at 1.54.57 AM.png" alt="Screenshot 2025-03-29 at 1.54.57 AM" style="zoom: 67%;" />
 
 11. Open System Model Settings on the top right corner to set up embedding model.
 
-<img src="/Users/lucydesu/Library/Application Support/typora-user-images/Screenshot 2025-03-29 at 2.04.15 AM.png" alt="Screenshot 2025-03-29 at 2.04.15 AM" style="zoom:67%;" />
+<img src="Screenshot 2025-03-29 at 2.04.15 AM.png" alt="Screenshot 2025-03-29 at 2.04.15 AM" style="zoom:67%;" />
 
 12. Go to Knowledge Base on top left and click on Create knowledge base.
-13. After created the knowledge base name, add files into the dataset and parsing the data by click on run button next to **PENDING** text.<img src="/Users/lucydesu/Desktop/Screenshot 2025-03-29 at 2.12.35 AM.png" alt="Screenshot 2025-03-29 at 2.12.35 AM" style="zoom:67%;" />
-14. Once parsing completed, go to Chat to and create an agent to try to new information.<img src="/Users/lucydesu/Library/Application Support/typora-user-images/Screenshot 2025-03-29 at 2.16.44 AM.png" alt="Screenshot 2025-03-29 at 2.16.44 AM" style="zoom:50%;" />
+13. After created the knowledge base name, add files into the dataset and parsing the data by click on run button next to **PENDING** text.<img src="Screenshot 2025-03-29 at 2.12.35 AM.png" alt="Screenshot 2025-03-29 at 2.12.35 AM" style="zoom:67%;" />
+14. Once parsing completed, go to Chat to and create an agent to try to new information.<img src="Screenshot 2025-03-29 at 2.16.44 AM.png" alt="Screenshot 2025-03-29 at 2.16.44 AM" style="zoom:50%;" />
 
 ## Result:
 
-![Screenshot 2025-03-29 at 2.22.19 AM](/Users/lucydesu/Library/Application Support/typora-user-images/Screenshot 2025-03-29 at 2.22.19 AM.png)
+![Screenshot 2025-03-29 at 2.22.19 AM](Screenshot 2025-03-29 at 2.22.19 AM.png)
 
-![Screenshot 2025-03-29 at 2.21.25 AM](/Users/lucydesu/Desktop/Screenshot 2025-03-29 at 2.21.41 AM.png)
+![Screenshot 2025-03-29 at 2.21.25 AM](Screenshot 2025-03-29 at 2.21.41 AM.png)
 
 ## Q&A:
 
